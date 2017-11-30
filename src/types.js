@@ -90,7 +90,7 @@ export const numberFormatPropTypes = {
 
 export const relativeFormatPropTypes = {
   style: oneOf(['best fit', 'numeric']),
-  units: oneOf(['second', 'minute', 'hour', 'day', 'month', 'year']),
+  units: oneOf(['second', 'minute', 'hour', 'day', 'week', 'month', 'year']),
 };
 
 export const pluralFormatPropTypes = {
